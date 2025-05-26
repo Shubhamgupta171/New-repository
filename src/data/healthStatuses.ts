@@ -1,4 +1,4 @@
-import boneImage from '../../assets/bone.jpg'; 
+
 export const healthStatuses = [
   {
     id: 1,
@@ -22,7 +22,7 @@ export const healthStatuses = [
   date: '26 Oct 2021',
   status: 'warning' as 'good' | 'warning' | 'critical',
   percentage: 60,
-  icon: boneImage
+  icon: 'https://img.icons8.com/?size=100&id=isuU3TxRtY1f&format=png&color=000000'
 }
 
 ];
