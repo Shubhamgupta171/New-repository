@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+
+  body {
+    background: #f2f2f2;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #f2f2f2;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #c2c2c2;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #a9a9a9;
+  }
+}
