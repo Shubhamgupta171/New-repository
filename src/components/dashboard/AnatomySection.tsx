@@ -2,6 +2,7 @@ import React from 'react';
 import { Search, ChevronRight } from 'lucide-react';
 import { healthStatuses } from '../../data/healthStatuses';
 import HealthStatusCard from './HealthStatusCard';
+import logo from './assets/logo.png';
 
 const AnatomySection: React.FC = () => {
   return (
