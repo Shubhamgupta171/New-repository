@@ -1,3 +1,4 @@
+import boneImage from '../../assets/bone.jpg'; 
 export const healthStatuses = [
   {
     id: 1,
@@ -15,12 +16,13 @@ export const healthStatuses = [
     percentage: 80,
     icon: 'https://img.icons8.com/color/48/tooth.png'
   },
-  {
-    id: 3,
-    name: 'Bone',
-    date: '26 Oct 2021',
-    status: 'warning' as 'good' | 'warning' | 'critical',
-    percentage: 60,
-    icon: 'src/assets/bone.jpg'
-  }
+ {
+  id: 3,
+  name: 'Bone',
+  date: '26 Oct 2021',
+  status: 'warning' as 'good' | 'warning' | 'critical',
+  percentage: 60,
+  icon: boneImage
+}
+
 ];
