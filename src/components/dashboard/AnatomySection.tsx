@@ -2,7 +2,9 @@ import React from 'react';
 import { Search, ChevronRight } from 'lucide-react';
 import { healthStatuses } from '../../data/healthStatuses';
 import HealthStatusCard from './HealthStatusCard';
-import anatomyImage from '../../assets/anaton.jpg'; // adjust path as per location
+import anatomyImage from '../../assets/anaton.jpg'; 
+
+
 
 
 const AnatomySection: React.FC = () => {
